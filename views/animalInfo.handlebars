@@ -1,0 +1,10 @@
+<div class="card individual">
+    <h1>Animal seleccionado</h1>
+    <h2>{{selectedAnimal.animalsname}}</h2>
+    <span><strong>ID: </strong> {{selectedAnimal.id}}</span>
+    <span><strong>Breed: </strong> {{selectedAnimal.breedname}}</span>
+    <span><strong>Age: </strong> {{selectedAnimal.animalsage}}</span>
+    <span><strong>Colour:</strong> {{selectedAnimal.basecolour}}</span>
+    <span><strong>Owner name: </strong>{{selectedAnimal.fullname}}</span>
+    <a href="/animals/{{selectedAnimal.id}}?adopt=1"><button>Adopt</button></a>
+</div>

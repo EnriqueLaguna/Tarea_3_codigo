@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "d2ade73a-e24a-45de-88d6-61b35e27db5c",
+		"name": "Tarea_3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST_Animals",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":56789,\r\n    \"animalsname\": \"Scooby\",\r\n    \"breedname\": \"Doberman\",\r\n    \"speciesname\": \"Dog\",\r\n    \"animalsage\":\"5 year 0 months\",\r\n    \"basecolour\":\"Black\",\r\n    \"owner_id\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/animals",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"animals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT_Animals",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"animalsname\":\"Ipa\",\r\n    \"breedname\":\"Pastor aleman con labrador\",\r\n    \"speciesname\":\"Dog\",\r\n    \"animalsage\": \"4 years 6 months\",\r\n    \"basecolour\": \"light brown\",\r\n    \"owner_id\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/animals/12345",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"animals",
+						"12345"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE_Animals",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/animals/61660",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"animals",
+						"61660"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Animals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/animals",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"animals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_Users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"fullname\":\"Alejandro Maciel\",\r\n    \"age\": 22\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT_Users",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fullname\":\"Alejandro Maciel\",\r\n    \"age\":22\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/users/4",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE_Users",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/users/4",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

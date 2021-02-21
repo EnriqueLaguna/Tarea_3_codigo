@@ -1,0 +1,23 @@
+{
+"users": [
+	{
+		"id" : 1,
+		"fullname" : "Enrique Laguna",
+		"age" : 20
+	},
+	{
+		"id" : 2,
+		"fullname" : "Diego Munoz",
+		"age" : 21
+	},
+	{
+		"id" : 3,
+		"fullname" : "Mariano Junco",
+		"age" : 20
+	},
+	{
+		"id" : 0,
+		"fullname" : "",
+		"age" : null
+	}
+]}

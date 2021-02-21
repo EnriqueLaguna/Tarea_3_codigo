@@ -1,0 +1,20 @@
+<div class="card individual">
+    <h1>Adoptara a este animal uwu</h1>
+    <span>
+        You are adopting {{selectedAnimal.animalsname}} <br>
+        please write your users id so we can <br>
+        register you on our database.
+    </span>
+    <span>ID:</span>
+    <input id="inputBox" type="text" data-info = "{{selectedAnimal.id}}"></input>
+    <br>
+    <a id="adoptButton"><button>Adopt!</button></a> 
+</div>
+
+<script>
+    let inputInfo = document.getElementById("inputBox");
+    inputInfo.addEventListener("change", ()=>{
+        document.getElementById('adoptButton').href="/animals?animalId="+
+        inputInfo.getAttribute('data-info')+"&owner="+inputInfo.value;
+    })
+</script>

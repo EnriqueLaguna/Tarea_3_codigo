@@ -1,0 +1,75 @@
+{
+"animals": [
+	{
+		"id" : 28859,
+		"animalsname" : "Maggie",
+		"breedname" : "Shep Mix\/Siberian Husky",
+		"speciesname" : "Dog",
+		"animalsage" : "6 years 8 months",
+		"basecolour" : "Various",
+		"owner_id" : 1
+	},
+	{
+		"id" : 30812,
+		"animalsname" : "Pretty Girl",
+		"breedname" : "Domestic Short Hair",
+		"speciesname" : "Cat",
+		"animalsage" : "8 years 11 months",
+		"basecolour" : "Cat",
+		"owner_id" : 1
+	},
+	{
+		"id" : 61660,
+		"animalsname" : "Leah",
+		"breedname" : "Labrador Retriever",
+		"speciesname" : "Dog",
+		"animalsage" : "1 year 0 months",
+		"basecolour" : "Black",
+		"owner_id" : 3
+	},
+	{
+		"id" : 56789,
+		"animalsname" : "Scooby",
+		"breedname" : "Doberman",
+		"speciesname" : "Dog",
+		"animalsage" : "5 year 0 months",
+		"basecolour" : "Black",
+		"owner_id" : 1
+	},
+	{
+		"id" : 12345,
+		"animalsname" : "Ipa",
+		"breedname" : "Pastor aleman con labrador",
+		"speciesname" : "Dog",
+		"animalsage" : "4 years 6 months",
+		"basecolour" : "light brown",
+		"owner_id" : 0
+	},
+	{
+		"id" : 91234,
+		"animalsname" : "Elmo",
+		"breedname" : "German Sheperd",
+		"speciesname" : "Dog",
+		"animalsage" : "4 year 10 months",
+		"basecolour" : "Golden",
+		"owner_id" : 2
+	},
+	{
+		"id" : 15801,
+		"animalsname" : "Jadzia",
+		"breedname" : "Domestic Short Hair",
+		"speciesname" : "Cat",
+		"animalsage" : "9 years 2 month",
+		"basecolour" : "Tortie",
+		"owner_id" : 2
+	},
+	{
+		"id" : 15932,
+		"animalsname" : "Gonzo",
+		"breedname" : "German Shepherd",
+		"speciesname" : "Dog",
+		"animalsage" : "9 years 1 month",
+		"basecolour" : "Tan",
+		"owner_id" : 2
+	}
+]}

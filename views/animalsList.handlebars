@@ -1,0 +1,14 @@
+{{#each animals}}
+<div class="card">
+    <div class="content">
+        <h2><strong> Nombre: </strong>{{animalsname}}</h2>
+        <span><strong>ID: </strong>{{id}}</span>
+        <span><strong>Breed: </strong>{{breedname}}</span>
+        <span><strong>Specie: </strong>{{speciesname}}</span>
+        <span><strong>Age: </strong>{{animalsage}}</span>
+        <span><strong>Color: </strong>{{basecolour}}</span>
+        <span><strong>Owner: </strong>{{fullname}}</span>
+        <a href="/animals/{{id}}"><button>Adopt me!</button></a>
+    </div>
+</div>
+{{/each}}
